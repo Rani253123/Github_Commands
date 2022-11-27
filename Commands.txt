@@ -1,0 +1,50 @@
+
+#GIT COMMANDS:
+To create any file in Gitbash:
+touch file1
+git status(appears in red color)
+git add file1
+git status(appears in green color)
+git commit -m "Commited" file1
+git status(everything gets cleared)
+
+git add *(to add all files)
+git commit -m "commit message"
+git push(to push the file to github)
+
+git restore ---staged file1(to pull the file1)
+git status(again appears in red color i.e.back to the previous stage)
+
+#To connect Git and Github:
+touch file1
+git init
+git commit -m "first commit"
+git config --global user.email "rani.kadimisetty3@gmail.com"
+git config --global user.name "Rani253123"
+git add *
+git commit -m "commit"
+git branch -M main
+git remote add origin https://github.com/Rani253123/demo.git
+git push -u origin main
+code .(to open vs code)
+touch app.py(app.py file will be created in vs code)
+touch .gitignore(to create gitignore file)
+git checkout -b Rani(to create branch as Rani)
+git commit -m "Ranifiles"
+git remote add origin https://github.com/Rani253123/Demo.git
+git push -u origin Rani
+git checkout -b main(to switch to main branch)
+git branch(to know how many branches are there)
+git pull origin Rani
+git log
+*.csv(to ignore all csv files)
+rm -r Rani.txt(to remove file)
+rm -f(all folders get deleted)
+git clone https://github.com/Rani253123/project_name.git(to clone any project)
+ll(long list)
+ls(to get only names of files)
+ls -al(we get hidden files also)
+
+
+
+
